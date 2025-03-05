@@ -107,6 +107,7 @@ export default function GeotagReader() {
         </iframe>
         
         <div className="mt-4 flex flex-wrap gap-4">
+<<<<<<< HEAD
           <a 
             href={`https://www.openstreetmap.org/?mlat=${exifData.latitude}&mlon=${exifData.longitude}`} 
             target="_blank" 
@@ -118,6 +119,9 @@ export default function GeotagReader() {
             </svg>
             OpenStreetMap
           </a>
+=======
+
+>>>>>>> 24be432 (Initial commit - Geotag Reader App)
           
           <a 
             href={googleMapsUrl} 
